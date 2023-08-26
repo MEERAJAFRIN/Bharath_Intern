@@ -17,9 +17,8 @@ A simple website having similar homepage that of Netflix using HTML and CSS.Inst
 To run the code for each task, open a terminal window and navigate to the corresponding directory. Then, run the following command:
 
 npm install
-npm start
 
-This will start a local server on port 8080. You can then open the website in your browser by visiting http://localhost:8080.
+npm start
 
 Author
 
