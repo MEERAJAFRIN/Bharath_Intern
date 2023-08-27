@@ -1,0 +1,101 @@
+Home page of Netflix
+
+HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Netflix</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="/"><img src="logo.png" alt="Netflix logo"></a>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">TV Shows</a>
+      <a href="#">Movies</a>
+      <a href="#">My List</a>
+    </nav>
+  </header>
+  <main>
+    <h1>What are you watching?</h1>
+    <section>
+      <h2>Popular TV Shows</h2>
+      <ul>
+        <li>Stranger Things</li>
+        <li>The Crown</li>
+        <li>The Witcher</li>
+        <li>You</li>
+        <li>Bridgerton</li>
+      </ul>
+    </section>
+    <section>
+      <h2>New Releases</h2>
+      <ul>
+        <li>The Woman in the House Across the Street from the Girl in the Window</li>
+        <li>The Adam Project</li>
+        <li>Senior Year</li>
+        <li>The Lost City</li>
+        <li>RRR</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright © 2023 Netflix</p>
+  </footer>
+</body>
+</html>
+
+CSS
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #008CBA;
+  color: white;
+  padding: 20px;
+}
+
+nav {
+  background-color: #212121;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #212121;
+  padding: 20px;
+  text-align: center;
+}
